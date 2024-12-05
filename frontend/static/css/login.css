@@ -1,0 +1,112 @@
+/* Styles for the login page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; 
+    color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    overflow: hidden; 
+  }
+  
+  /* Signup container */
+  .login-container {
+    background-color: #1e1e1e; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    max-width: 400px; 
+    text-align: center; 
+  }
+  
+  .login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff; 
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #cccccc;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333333; 
+    border-radius: 6px; 
+    background-color: #262626;
+    color: #ffffff;
+    font-size: 14px;
+    box-sizing: border-box; 
+  }
+  
+  input::placeholder {
+    color: #888888; 
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  }
+  
+  button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .error-message {
+    color: #ff6b6b; 
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .login-container p {
+    font-size: 14px;
+    color: #cccccc; 
+    margin-top: 20px;
+  }
+  
+  .login-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media (max-width: 500px) {
+    .login-container {
+      padding: 20px;
+      width: 90%; 
+    }
+  }
+  

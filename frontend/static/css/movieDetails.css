@@ -1,0 +1,100 @@
+/* Styles for movie details page */
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Navbar styling */
+.navbar {
+  width: 100%;
+  padding: 1em;
+  background-color: #1e1e1e;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.logout-btn {
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #6200ea;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #3700b3;
+}
+
+/* Centered container */
+#movieDetails, 
+#commentFormContainer, 
+#commentsContainer {
+  background-color: #1e1e1e;
+  margin: 1em 0;
+  padding: 1.5em;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Comment textbox styling */
+.comment-form-container textarea {
+  width: 100%;
+  height: 100px;
+  padding: 1em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.comment-form-container button {
+  margin-top: 1em;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #03dac6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comment-form-container button:hover {
+  background-color: #018786;
+}
+
+/* Comments container */
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.comments-container .comment {
+  padding: 1em;
+  background-color: #292929;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}

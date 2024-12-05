@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <h1>Movies</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search for a movie...">
+      <button id="searchBtn">Search</button>
+      
+      <input type="text" id="searchActorInput" placeholder="Search movies by actor...">
+      <button id="searchActorBtn">Search Actor</button>
+      
+      <button id="homeBtn">Back to Home</button>
+    </div>
+    
+    <button id="logoutBtn" class="logout-btn">Log Out</button>
+  </div>
+  <div class="movies-container">
+    <div id="moviesList" class="movies-list">
+      <!-- Movies will be loaded here -->
+    </div>
+  </div>
+
+  <script src="../movies.js"></script>
+</body>
+</html>
